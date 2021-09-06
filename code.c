@@ -62,9 +62,9 @@ int main(){
    else if(result==1){
        printf("You win!\n");
                }
-                                                else{
-                                                        printf("You Lose!\n");
-                                                            }
-                                                                printf("You chose %c and computer chose %c. ", you, comp);
-                                                                    return 0;
-                                                                    }
+  else{
+      printf("You Lose!\n");
+       }
+ printf("You chose %c and computer chose %c. ", you, comp);
+   return 0;
+    }
